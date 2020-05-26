@@ -10,10 +10,12 @@ useEmbeddedFile=<true(default) or false> // if true, reads the file embedded wit
 Steps to run the project :
 
 Step 1
-Command to compile package: mvn install 
+Command to compile package
+$ mvn install 
 
 Step 2
-Command to deploy package to embadded tomcat: mvn tomcat7:run 
+Command to deploy package to embadded tomcat
+$ mvn tomcat7:run 
 
 Step 3
 Application is available at: http://localhost:8080/
