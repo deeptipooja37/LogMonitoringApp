@@ -111,7 +111,7 @@
 			  document.getElementById("errorCount").innerText = msg.split(',')[0];
 			  document.getElementById("warningCount").innerText = msg.split(',')[1];
 			  document.getElementById("infoCount").innerText = msg.split(',')[2];
-			  //document.getElementById("interval").value = msg.split(',')[3];
+			  document.getElementById("interval").value = msg.split(',')[3];
 			  
             };
             this.webSocket.onclose = function(event) {
@@ -184,7 +184,7 @@
 	</form>
 	--> 
      <span>
-        <input type="text" id="interval" value="10"/>
+        <input type="text" id="interval" value="5"/>
     </span> 
      
       seconds.
