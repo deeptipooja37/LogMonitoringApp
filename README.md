@@ -6,7 +6,7 @@ For Default configuration, There is a log.file and utility which writes random l
 Provide configuration in file at location : src/main/resources/resource/config.properties
 
 
-filePath=<absolute path to log file> ex: C:\\log\\log.log   or /user/dir/log.log
+filePath=<<absolute path to log file>> ex: C:\\log\\log.log   or /user/dir/log.log
   
 interval=<10>  
   
